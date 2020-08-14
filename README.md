@@ -5,22 +5,31 @@
 A utility-first CSS framework that supports grid and flexbox out of the box for rapidly building custom user interfaces. 
 <br>
 # Documentation
+
 ## Installation
+
 ### Via Npm
+
 ```
 npm install proton.css
 ```
+
 <span style="color:red;">OR</span>
+
 ```
 yarn add proton.css
 ````
+
 **Usage**
+
 ```
 import 'proton.css/dist/minified/proton.css'
 import 'proton.css/dist/minified/colors.css'
 import 'proton.css/dist/minified/typo.css'
 ```
+
 ### Via CDN
+
 ```
 <link rel="stylesheet" href="https://unpkg.com/proton.css@1.0.1/dist/minified/proton.css">
 <link rel="stylesheet" href="https://unpkg.com/proton.css@1.0.1/dist/minified/colors.css">
