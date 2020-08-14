@@ -1,9 +1,10 @@
 {
 	"name": "proton.css",
-	"version": "1.0.1",
+	"version": "0.0.1-alpha",
 	"main": "index.js",
 	"author": "iamharshdev",
 	"license": "MIT",
+	"repository":"https://github.com/iamharshdev/Proton",
 	"dependencies": {
 		"gulp": "^4.0.2",
 		"gulp-sass": "^4.1.0",
