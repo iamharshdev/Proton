@@ -1,0 +1,1187 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+    margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+
+main {
+    display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+    background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+    font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+sup {
+    top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+    border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: 100%; /* 1 */
+    line-height: 1.15; /* 1 */
+    margin: 0; /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+    /* 1 */
+    overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+    /* 1 */
+    text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+    padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+    box-sizing: border-box; /* 1 */
+    color: inherit; /* 2 */
+    display: table; /* 1 */
+    max-width: 100%; /* 1 */
+    padding: 0; /* 3 */
+    white-space: normal; /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+    vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+    overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+    box-sizing: border-box; /* 1 */
+    padding: 0; /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+    -webkit-appearance: textfield; /* 1 */
+    outline-offset: -2px; /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button; /* 1 */
+    font: inherit; /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+    display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+    display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+    display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+    display: none;
+}
+
+/**
+ * Manually forked from SUIT CSS Base: https://github.com/suitcss/base
+ * A thin layer on top of normalize.css that provides a starting point more
+ * suitable for web applications.
+ */
+
+/**
+ * 1. Prevent padding and border from affecting element width
+ *    https://goo.gl/pYtbK7.
+ * 2. Change the default font family in all browsers (opinionated).
+ */
+
+html {
+    box-sizing: border-box; /* 1 */
+    font-family: sans-serif; /* 2 */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/**
+   * Removes the default spacing and border for appropriate elements.
+   */
+
+blockquote,
+dl,
+dd,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+    margin: 0;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+/**
+   * Work around a Firefox/IE bug where the transparent `button` background
+   * results in a loss of the default `button` focus styles.
+   */
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    border: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+//   proton css custom style
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 1.5;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e2e8f0;
+}
+
+hr {
+    border-top-width: 1px;
+}
+img {
+    border-style: solid;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+textarea {
+    resize: vertical;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    &:-ms-input-placeholder {
+        color: #a0aec0;
+    }
+    &::-ms-input-placeholder {
+        color: #a0aec0;
+    }
+    &::placeholder {
+        color: #a0aec0;
+    }
+}
+input {
+    &:-ms-input-placeholder {
+        color: #a0aec0;
+    }
+    &::-ms-input-placeholder {
+        color: #a0aec0;
+    }
+    &::placeholder {
+        color: #a0aec0;
+    }
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+button {
+    cursor: pointer;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+[role="button"] {
+    cursor: pointer;
+}
+table {
+    border-collapse: collapse;
+}
+h1 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+h2 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+h3 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+h4 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+optgroup {
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+select {
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+}
+pre {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+code {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+kbd {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+samp {
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+svg {
+    display: block;
+}
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+canvas {
+    display: block;
+}
+audio {
+    display: block;
+}
+iframe {
+    display: block;
+}
+embed {
+    display: block;
+}
+object {
+    display: block;
+}
+.container {
+    width: 100%;
+}
+
+// flexbox
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    position: relative;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-3 {
+    width: 25%;
+    flex: 0 0 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+    flex: 0 0 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+    flex: 0 0 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+    flex:0 0 50%;
+}
+
+.col-8 {
+    width: 66.66%;
+    flex: 0 0 66.66%;
+}
+
+.col-12 {
+    width: 100%;
+    flex:0 0 100%;
+}
+
+// grid styling
+
+.grid {
+    display: grid;
+}
+
+.inline-grid {
+    display: inline-grid;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-col-reverse {
+    flex-direction: column-reverse;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+.items-stretch {
+    align-items: stretch;
+}
+
+.self-auto {
+    align-self: auto;
+}
+
+.self-start {
+    align-self: flex-start;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-stretch {
+    align-self: stretch;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.content-center {
+    align-content: center;
+}
+
+.content-start {
+    align-content: flex-start;
+}
+
+.content-end {
+    align-content: flex-end;
+}
+
+.content-between {
+    align-content: space-between;
+}
+
+.content-around {
+    align-content: space-around;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.flex-auto {
+    flex: 1 1 auto;
+}
+
+.flex-initial {
+    flex: 0 1 auto;
+}
+
+.flex-none {
+    flex: none;
+}
+
+.flex-grow-0 {
+    flex-grow: 0;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0;
+}
+
+.flex-shrink {
+    flex-shrink: 1;
+}
+
+.order-first {
+    order: -9999;
+}
+
+.order-last {
+    order: 9999;
+}
+
+.order-none {
+    order: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-none {
+    float: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clear-left {
+    clear: left;
+}
+
+.clear-right {
+    clear: right;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.clear-none {
+    clear: none;
+}
+
+.col-auto {
+    grid-column: auto;
+}
+
+.row-auto {
+    grid-row: auto;
+}
+.row-end-auto {
+    grid-row-end: auto;
+}
+
+.max-h-full {
+    max-height: 100%;
+}
+
+.max-h-screen {
+    max-height: 100vh;
+}
+
+.max-w-none {
+    max-width: none;
+}
+
+@for $var from 0 to 13 {
+    .h-#{$var} {
+        height: 0.25 * $var + rem;
+    }
+    .order-#{$var} {
+        order: $var;
+    }
+    .grid-cols-#{$var} {
+        grid-template-columns: repeat($var, minmax(0, 1fr));
+    }
+    .col-span-#{$var} {
+        grid-column: span $var;
+    }
+    .col-start-#{$var} {
+        grid-column-start: $var;
+    }
+    .col-end-#{$var} {
+        grid-column-end: $var;
+    }
+    .grid-rows-#{$var} {
+        grid-template-rows: repeat($var, minmax(0, 1fr));
+    }
+    .row-span-#{$var} {
+        grid-row: span $var;
+    }
+    .row-start-#{$var} {
+        grid-row-start: $var;
+    }
+    .row-end-#{$var} {
+        grid-row-end: $var;
+    }
+    .gap-#{$var} {
+        grid-gap: 0.25 * $var + rem;
+        gap: 0.25 * $var + rem;
+    }
+    .row-gap-#{$var} {
+        grid-row-gap: 0.25 * $var + rem;
+        row-gap: 0.25 * $var + rem;
+    }
+    .col-gap-#{$var} {
+        grid-column-gap: 0.25 * $var + rem;
+        column-gap: 0.25 * $var + rem;
+    }
+    .p-#{$var} {
+        padding: 0.25 * $var + rem;
+    }
+    .py-#{$var} {
+        padding-top: 0.25 * $var + rem;
+        padding-bottom: 0.25 * $var + rem;
+    }
+    .px-#{$var} {
+        padding-left: 0.25 * $var + rem;
+        padding-right: 0.25 * $var + rem;
+    }
+    .pt-#{$var} {
+        padding-top: 0.25 * $var + rem;
+    }
+    .pr-#{$var} {
+        padding-right: 0.25 * $var + rem;
+    }
+    .pl-#{$var} {
+        padding-left: 0.25 * $var + rem;
+    }
+    .pb-#{$var} {
+        padding-bottom: 0.25 * $var + rem;
+    }
+    .m-#{$var} {
+        margin: 0.25 * $var + rem;
+    }
+    .my-#{$var} {
+        margin-top: 0.25 * $var + rem;
+        margin-bottom: 0.25 * $var + rem;
+    }
+    .mx-#{$var} {
+        margin-left: 0.25 * $var + rem;
+        margin-right: 0.25 * $var + rem;
+    }
+    .mt-#{$var} {
+        margin-top: 0.25 * $var + rem;
+    }
+    .mr-#{$var} {
+        margin-right: 0.25 * $var + rem;
+    }
+    .ml-#{$var} {
+        margin-left: 0.25 * $var + rem;
+    }
+    .mb-#{$var} {
+        margin-bottom: 0.25 * $var + rem;
+    }
+    .space-x-#{$var} {
+        margin-left: 0.25 * $var + rem;
+    }
+    .-space-x-#{$var} {
+        margin-left: -0.25 * $var + rem;
+    }
+    .space-y-#{$var} {
+        margin-top: 0.25 * $var + rem;
+    }
+    .-space-y-#{$var} {
+        margin-top: -0.25 * $var + rem;
+    }
+}
+
+$table: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16;
+@each $four in $table {
+    .h-#{$four*4} {
+        height: 0.25 * $four * 4 + rem;
+    }
+    .gap-#{$four*4} {
+        grid-gap: 0.25 * $four * 4 + rem;
+        gap: 0.25 * $four * 4 + rem;
+    }
+    .row-gap-#{$four*4} {
+        grid-row-gap: 0.25 * $four * 4 + rem;
+        row-gap: 0.25 * $four * 4 + rem;
+    }
+    .col-gap-#{$four*4} {
+        grid-column-gap: 0.25 * $four * 4 + rem;
+        column-gap: 0.25 * $four * 4 + rem;
+    }
+    .p-#{$four*4} {
+        padding: 0.25 * $four * 4 + rem;
+    }
+    .py-#{$four*4} {
+        padding-top: 0.25 * $four * 4 + rem;
+        padding-bottom: 0.25 * $four * 4 + rem;
+    }
+    .px-#{$four*4} {
+        padding-left: 0.25 * $four * 4 + rem;
+        padding-right: 0.25 * $four * 4 + rem;
+    }
+    .pt-#{$four*4} {
+        padding-top: 0.25 * $four * 4 + rem;
+    }
+    .pr-#{$four*4} {
+        padding-right: 0.25 * $four * 4 + rem;
+    }
+    .pl-#{$four*4} {
+        padding-left: 0.25 * $four * 4 + rem;
+    }
+    .pb-#{$four*4} {
+        padding-bottom: 0.25 * $four * 4 + rem;
+    }
+    .m-#{$four*4} {
+        margin: 0.25 * $four * 4 + rem;
+    }
+    .my-#{$four*4} {
+        margin-top: 0.25 * $four * 4 + rem;
+        margin-bottom: 0.25 * $four * 4 + rem;
+    }
+    .mx-#{$four*4} {
+        margin-left: 0.25 * $four * 4 + rem;
+        margin-right: 0.25 * $four * 4 + rem;
+    }
+    .mt-#{$four*4} {
+        margin-top: 0.25 * $four * 4 + rem;
+    }
+    .mr-#{$four*4} {
+        margin-right: 0.25 * $four * 4 + rem;
+    }
+    .ml-#{$four*4} {
+        margin-left: 0.25 * $four * 4 + rem;
+    }
+    .mb-#{$four*4} {
+        margin-bottom: 0.25 * $four * 4 + rem;
+    }
+    .space-x-#{$four*4} {
+        margin-left: 0.25 * $four * 4 + rem;
+    }
+    .-space-x-#{$four*4} {
+        margin-left: -0.25 * $four * 4 + rem;
+    }
+    .space-y-#{$four*4} {
+        margin-top: 0.25 * $four * 4 + rem;
+    }
+    .-space-y-#{$four*4} {
+        margin-top: -0.25 * $four * 4 + rem;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.not-sr-only {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+}
+
+.focus\:sr-only:focus {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.focus\:not-sr-only:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+}
+
+.appearance-none {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-local {
+    background-attachment: local;
+}
+
+.bg-scroll {
+    background-attachment: scroll;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-current {
+    background-color: currentColor;
+}
+
+.bg-bottom {
+    background-position: bottom;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.bg-left {
+    background-position: left;
+}
+
+.bg-left-bottom {
+    background-position: left bottom;
+}
+
+.bg-left-top {
+    background-position: left top;
+}
+
+.bg-right {
+    background-position: right;
+}
+
+.bg-right-bottom {
+    background-position: right bottom;
+}
+
+.bg-right-top {
+    background-position: right top;
+}
+
+.bg-top {
+    background-position: top;
+}
+
+.bg-repeat {
+    background-repeat: repeat;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-repeat-x {
+    background-repeat: repeat-x;
+}
+
+.bg-repeat-y {
+    background-repeat: repeat-y;
+}
+
+.bg-repeat-round {
+    background-repeat: round;
+}
+
+.bg-repeat-space {
+    background-repeat: space;
+}
+
+.bg-auto {
+    background-size: auto;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-contain {
+    background-size: contain;
+}
+
+.border-collapse {
+    border-collapse: collapse;
+}
+
+.border-separate {
+    border-collapse: separate;
+}
+
+.border-transparent {
+    border-color: transparent;
+}
+
+.border-current {
+    border-color: currentColor;
+}
