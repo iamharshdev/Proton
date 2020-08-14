@@ -1,5 +1,6 @@
 # Proton
-<img src="assets/proton_logo.png" style="width:20%;margin:1rem;">
+
+<img src="assets/proton_logo.png" width='100'>
 <a href="#"><img src="https://img.shields.io/travis/tailwindcss/tailwindcss/master.svg" alt="Build Status"></a>
 <br>
 A utility-first CSS framework that supports grid and flexbox out of the box for rapidly building custom user interfaces. 
