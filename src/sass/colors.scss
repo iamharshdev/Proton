@@ -36,3 +36,140 @@ $--leit-cyan-dark:#29BC9B;
 
 $--leit-purple:#F81CE5;
 $--leit-pink:#FF0080;
+
+html,body{
+    color: $--leit-dark;
+}
+
+.bg-dark{background-color: $--leit-dark;}
+.bg-dark-700{background-color:$--leit-accent-8 ;}
+.bg-dark-600{background-color:$--leit-accent-7 ;}
+.bg-dark-500{background-color: $--leit-accent-6;}
+.bg-dark-400{background-color:$--leit-accent-5 ;}
+.bg-dark-300{background-color: $--leit-accent-4;}
+
+.bg-error{background-color:$--leit-error-default ;}
+.bg-error-600{background-color: $--leit-error-dark;}
+.bg-error-500{background-color: $--leit-error-light;}
+.bg-error-400{background-color:$--leit-error-lightest;}
+
+.bg-success{background-color:$--leit-success-default ;}
+.bg-success-600{background-color: $--leit-success-dark;}
+.bg-success-500{background-color: $--leit-success-light;}
+.bg-success-400{background-color:$--leit-success-lightest;}
+
+.bg-warning{background-color:$--leit-warning-default ;}
+.bg-warning-600{background-color: $--leit-warning-dark;}
+.bg-warning-500{background-color: $--leit-warning-light;}
+.bg-warning-400{background-color:$--leit-warning-lightest;}
+
+.bg-violet{background-color:$--leit-violet-default ;}
+.bg-violet-600{background-color: $--leit-violet-dark;}
+.bg-violet-500{background-color: $--leit-violet-light;}
+.bg-violet-400{background-color:$--leit-violet-lightest;}
+
+.bg-cyan{background-color:$--leit-cyan-default ;}
+.bg-cyan-600{background-color: $--leit-cyan-dark;}
+.bg-cyan-500{background-color: $--leit-cyan-light;}
+.bg-cyan-400{background-color:$--leit-cyan-lightest;}
+
+.bg-purple{background-color:$--leit-purple ;}
+.bg-pink{background-color: $--leit-pink;}
+
+// text colors
+
+.text-dark{color: $--leit-dark;}
+.text-dark-700{color:$--leit-accent-8 ;}
+.text-dark-600{color:$--leit-accent-7 ;}
+.text-dark-500{color: $--leit-accent-6;}
+.text-dark-400{color:$--leit-accent-5 ;}
+.text-dark-300{color: $--leit-accent-4;}
+
+.text-error{color:$--leit-error-default ;}
+.text-error-600{color: $--leit-error-dark;}
+.text-error-500{color: $--leit-error-light;}
+.text-error-400{color:$--leit-error-lightest;}
+
+.text-success{color:$--leit-success-default ;}
+.text-success-600{color: $--leit-success-dark;}
+.text-success-500{color: $--leit-success-light;}
+.text-success-400{color:$--leit-success-lightest;}
+
+.text-warning{color:$--leit-warning-default ;}
+.text-warning-600{color: $--leit-warning-dark;}
+.text-warning-500{color: $--leit-warning-light;}
+.text-warning-400{color:$--leit-warning-lightest;}
+
+.text-violet{color:$--leit-violet-default ;}
+.text-violet-600{color: $--leit-violet-dark;}
+.text-violet-500{color: $--leit-violet-light;}
+.text-violet-400{color:$--leit-violet-lightest;}
+
+.text-cyan{color:$--leit-cyan-default ;}
+.text-cyan-600{color: $--leit-cyan-dark;}
+.text-cyan-500{color: $--leit-cyan-light;}
+.text-cyan-400{color:$--leit-cyan-lightest;}
+
+.text-purple{color:$--leit-purple ;}
+.text-pink{color: $--leit-pink;}
+
+.btn-dark-700{background-color: $--leit-dark;color: $--leit-white;}
+.btn-dark-600{background-color: $--leit-accent-8;color: $--leit-white;}
+.btn-dark-500{background-color: $--leit-accent-7;color: $--leit-white;}
+.btn-dark-400{background-color: $--leit-accent-6;color: $--leit-white;}
+.btn-dark-300{background-color: $--leit-accent-5;color: $--leit-white;}
+
+.btn-error{background-color: $--leit-error-default;color: $--leit-white;}
+.btn-error-600{background-color: $--leit-error-dark;color: $--leit-white;}
+.btn-error-500{background-color: $--leit-error-light;color: $--leit-white;}
+.btn-error-400{background-color: $--leit-error-lightest;color: $--leit-white;}
+
+.btn-success{background-color: $--leit-success-default;color: $--leit-white;}
+.btn-success-600{background-color: $--leit-success-dark;color: $--leit-white;}
+.btn-success-500{background-color: $--leit-success-light;color: $--leit-white;}
+.btn-success-400{background-color: $--leit-success-lightest;color: $--leit-white;}
+
+.btn-warning{background-color: $--leit-warning-default;color: $--leit-white;}
+.btn-warning-600{background-color: $--leit-warning-dark;color: $--leit-white;}
+.btn-warning-500{background-color: $--leit-warning-light;color: $--leit-white;}
+.btn-warning-400{background-color: $--leit-warning-lightest;color: $--leit-white;}
+
+.btn-cyan{background-color: $--leit-cyan-default;color: $--leit-white;}
+.btn-cyan-600{background-color: $--leit-cyan-dark;color: $--leit-white;}
+.btn-cyan-500{background-color: $--leit-cyan-light;color: $--leit-white;}
+.btn-cyan-400{background-color: $--leit-cyan-lightest;color: $--leit-white;}
+
+.btn-pink{background-color: $--leit-pink;color: $--leit-white;}
+.btn-purple{background-color: $--leit-purple;color: $--leit-white;}
+
+.btn-white{color: $--leit-accent-8;background-color: $--leit-white;}
+
+.border-white{border-color: $--leit-white;}
+.border-dark{border-color: $--leit-dark;}
+.border-error-300{border-color: $--leit-error-lightest;}
+.border-error-400{border-color:$--leit-error-light ;}
+.border-error{border-color: $--leit-error-default;}
+.border-error-600{border-color: $--leit-error-dark;}
+
+.border-success-300{border-color: $--leit-success-lightest;}
+.border-success-400{border-color:$--leit-success-light ;}
+.border-success{border-color: $--leit-success-default;}
+.border-success-600{border-color: $--leit-success-dark;}
+
+.border-warning-300{border-color: $--leit-warning-lightest;}
+.border-warning-400{border-color:$--leit-warning-light ;}
+.border-warning{border-color: $--leit-warning-default;}
+.border-warning-600{border-color: $--leit-warning-dark;}
+
+.border-violet-300{border-color: $--leit-violet-lightest;}
+.border-violet-400{border-color:$--leit-violet-light ;}
+.border-violet{border-color: $--leit-violet-default;}
+.border-violet-600{border-color: $--leit-violet-dark;}
+
+.border-cyan-300{border-color: $--leit-cyan-lightest;}
+.border-cyan-400{border-color:$--leit-cyan-light ;}
+.border-cyan{border-color: $--leit-cyan-default;}
+.border-cyan-600{border-color: $--leit-cyan-dark;}
+
+.border-purple{border-color: $--leit-purple;}
+.border-pink{border-color: $--leit-pink;}
